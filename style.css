@@ -1,0 +1,80 @@
+/* Start General Part  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background: linear-gradient(95deg, #4923b6, #8197ef);
+}
+/* End General Part  */
+
+/* Start Container App  */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 12%;
+}
+/* .container .app { */
+/* } */
+.app h1:nth-child(1) {
+  color: #fff;
+  font-size: 48px;
+  margin-left: 7px;
+}
+.app h1:nth-child(2) {
+  color: #fff566;
+  font-size: 48px;
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+.app .date-box {
+  background-color: #8d80da;
+  padding: 20px;
+  border-radius: 4px;
+  width: 360px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.app .date-box input {
+  height: 40px;
+  padding: 10px;
+  flex: 1;
+  margin-right: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+}
+.app .date-box button {
+  font-size: 13.5px;
+  background-color: #fff566;
+  border: none;
+  outline: none;
+  padding: 10px 19px;
+  border-radius: 4px;
+}
+.app .ageMsg {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 15px;
+  background-color: #8d80da;
+  width: 360px;
+  padding: 10px;
+  border-radius: 4px;
+  /* text-align: center; */
+  display: none;
+}
+.app .clear-btn {
+  font-size: 13.5px;
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 19px;
+  border-radius: 4px;
+  margin: 15px 0 0 150px;
+  display: none;
+}
+/* End Container App  */
